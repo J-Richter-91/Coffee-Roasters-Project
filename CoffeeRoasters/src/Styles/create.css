@@ -1,0 +1,632 @@
+
+
+.create-your-plan-hero-container{
+    
+    background-image: url("/assets/image-hero-blackcup.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1280px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 43px;
+  }
+  
+  .create-plan-hero-text-container{
+    padding-left: 86px;
+    padding-top: 75px;
+  }
+  
+  .create-hero-title{
+    color: #FEFCF7;
+    font-family: Fraunces 9pt;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; /* 100% */
+  }
+  
+  .create-hero-description{
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.8;
+    width: 445px;
+  }
+  
+  .how-it-works-container-create-page{
+    width: 1280px;
+    height: 653px;
+    border-radius: 10px;
+    background: #2C343E;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 115px;
+    margin-bottom: 115px;
+  }
+  
+  .create-plan-ovals-container{
+    display: flex;
+    position: relative;
+    padding-top: 75px;
+    padding-left: 86px;
+  }
+  
+  .create-plan-page-oval{
+    width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    margin-right: 349px;
+  }
+  
+  .create-plan-page-oval::after{
+    content: '';
+    width: 346px;
+    border: 2px solid #FDD6BA;
+    display: block;
+    top: 1em;
+    margin-top: 12px;
+    margin-left: 32px;
+    z-index: -1;
+  }
+  
+  .create-plan-page-oval:last-child::after {
+    display: none;
+  }
+
+  .create-page-how-it-works-card-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    gap: 125px;
+  }
+
+  .create-page-how-it-works-card-container{
+    width: 285px;
+    height: 356px;
+  }
+
+  .create-page-card-number{
+    font-family: fraunces;
+    color: #FDD6BA;
+  }
+
+  .create-page-card-title{
+    color: #FEFCF7;
+  }
+
+  .create-page-card-description{
+    width: 285px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.5; 
+  }
+  
+  .form-container{
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+  }
+  
+  .form-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+  }
+  
+  .progress-container{
+    height: 356px;
+    width: 260px;
+    margin-top: 26px;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  
+  
+  .progress-number{
+    color: #83888F;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0.3;
+    margin-right: 15px;
+  }
+  
+  li{
+    color: #83888F;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    list-style: none;
+    font-family: fraunces;
+  }
+  
+  .progress-number.active{
+    color: #0E8784;
+    font-family: fraunces;
+    opacity: 1;
+  }
+  
+  li.active{
+   color:#2a323e;
+  }
+  
+  li:hover{
+    cursor: pointer;
+  }
+  
+  .order-summary-title{
+    color: #FFFFFF;
+    opacity: 0.6;
+  }
+  
+  .cyan-text{
+    color: #0E8784;
+  }
+  
+  .order-summary-text{
+    color: #FFFFFF;
+  }
+  
+  .form-btn.disabled{
+    background-color: #E2DEDB;
+    color: #FEFCF7;
+  
+  }
+  
+  .form-btn{
+    background-color: #0E8784;
+    color: #FEFCF7;
+    width: 150px;
+    height: 56px;
+    margin-left: auto;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .form-btn:hover{
+    cursor: pointer;
+  }
+  
+  .selection-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 3218px;
+  }
+  
+  .selection-question-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 550px;
+  }
+  
+  .selection-question{
+    color:#83888F;
+  }
+
+  .down-arrow{
+   margin-left: auto;
+   margin-top: 0;
+  }
+  
+  .selection-question.disabled{
+    color: #83888F;
+    opacity: 0.5;
+    
+  }
+  
+  .selection-options-container{
+    display: none;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .selection-options-container.active{
+    display: flex;
+  }
+  
+  .selection-card{
+    width: 228px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F4F1EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  
+  .selection-card:hover{
+    cursor: pointer;
+    background-color: #FDD6BA;
+    transition: 0.5s;
+  }
+  
+  .selection-card.active{
+    background-color: #0E8784;
+  }
+  
+  .selection-card-title{
+    color: #333D4B;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+    margin-left: 15px;
+  }
+  
+  .selection-card-title.active{
+    color: #FFFFFF;
+  }
+  
+  .selection-card-description{
+    color: #333D4B;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 172px;
+    margin-left: 15px;
+  }
+  
+  .selection-card-description.active{
+    color: #F4F1EB;
+  }
+  
+  .order-summary-container{
+    width: 730px;
+    height: 208px;
+    background-color: #2C343E;
+    border-radius: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .order-text-summary-wrapper{
+    width: 75%;
+  }
+  
+  .order-summary-title{
+    font-size: 20px;
+  }
+  
+  .order-summary-text{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .module-container{
+    width: 540px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 50%; /* Adjust to 50% */
+    left: 50%; /* Adjust to 50% */
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Ensure it's above the overlay */
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    z-index: 999; /* Ensure it's above other content */
+}
+
+  .overlay.active{
+    display: block;
+  }
+
+  .module-container.active{
+    display: flex;
+  }
+
+  .title-container{
+    background-color: #333D4B;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .module-text-container{
+    background-color: #FEFCF7;
+    width: 100%;
+  }
+
+  .modal-summary-text{
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #83888F;
+    font-size: 30px;
+    font-family: fraunces;
+    line-height: 45px;
+  }
+
+  .verify-text{
+    color: #333D4B;
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+  }
+
+  .checkout-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+ .price{
+  font-family: fraunces;
+  color: #333D4B;
+  font-size: 32px;;
+ }
+
+ .checkout-btn{
+  border: none;
+  background-color: #0E8784;
+  border-radius: 15px;
+  color: #FEFCF7;
+  font-size: 18px;
+  font-family: fraunces;
+  height: 56px;
+  width: 217px;
+ }
+
+ .checkout-btn:hover{
+  background-color: #66D2CF;
+  cursor: pointer;
+  transition: 0.6s;
+ }
+
+  .module-title{
+    color:#F4F1EB;
+    text-align: center;
+  }
+
+
+  @media screen and (max-width: 1150px){
+    .create-your-plan-hero-container  {
+      background: url("/assets/Createplan/image-hero-blackcup-tablet.jpg");
+      background-position-x: 65%;
+      width: 689px;
+      height: 500px;
+      flex-shrink: 0;
+      
+    }
+
+    .create-plan-hero-text-container{
+      width: 450px;
+      padding-left: 45px;
+    }
+
+    .create-hero-description{
+      width: 350px;
+    }
+
+    .how-it-works-container-create-page{
+      width: 750px;
+    }
+
+    .create-plan-ovals-container{
+      padding-left: 15px;
+    }
+
+    .create-plan-page-oval{
+      margin-right: 245px;
+    }
+
+    .create-plan-page-oval::after{
+      width: 242px;
+    }
+
+    .create-page-how-it-works-card-wrapper{
+      gap: 15px;
+      align-items: center;
+    }
+
+    .create-page-how-it-works-card-container{
+      width: 210px;
+     
+    }
+
+    .create-page-card-title{
+      width: 100%;
+      font-size: 20px;;
+    }
+
+    .create-page-card-description{
+      width: 100%;
+    }
+
+    .progress-container{
+      display: none;
+    }
+
+   
+
+  }
+
+  @media screen and (max-width: 750px){
+    .form-wrapper{
+      width: 650px;
+    }
+
+    .selection-question-container{
+      width: 500px;
+    }
+
+    .selection-card{
+      width: 200px;
+    }
+
+    .order-summary-container{
+      width: 650px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media screen and (max-width: 650px){
+    .create-your-plan-hero-container  {
+      background: url("/assets/Createplan/image-hero-blackcup-mobile.jpg");
+      background-position-x: 85%;
+      width: 350px;
+      height: 500px;
+      flex-shrink: 0;
+      background-position: center;
+    }
+
+    .create-plan-hero-text-container{
+      padding-left: 23px;
+      width: 279px;
+      text-align: center;
+      margin-left: 0;
+    }
+
+    .create-hero-title{
+      width: 279px;
+      color: #FEFCF7;
+      text-align: center;
+      font-family: Fraunces;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 40px; /* 100% */
+      
+    }
+  
+    .create-hero-description{
+      width: 279px;
+      color: #FEFCF7;
+      text-align: center;
+      font-family: Barlow;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px; /* 166.667% */
+      margin-top: 55px;;
+    }
+
+    .create-plan-ovals-container{
+      display: none;
+    }
+
+    .how-it-works-container-create-page{
+      height: 900px;
+      width: 375px;
+    }
+
+    .create-page-how-it-works-card-wrapper{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 25px;
+    }
+
+    .create-page-how-it-works-card-container{
+      width: 270px;
+      height: 260px;
+    }
+
+    .create-page-card-number{
+      font-size: 40px;
+      margin-top: 0;
+    }
+
+    .create-page-card-title{
+      font-size: 25px;;
+    }
+
+    .form-wrapper{
+      width: 350px;
+      align-items: center;
+    }
+
+    .selection-options-container.active{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .selection-question-container{
+      width: 328px;
+    }
+
+    .selection-card{
+      width: 328px;
+      height: 190px;
+    }
+
+    .selection-card-title.active,.selection-card-description.active{
+      width: 300px;
+    }
+
+    .order-summary-container{
+      width: 100%;;
+      line-height: 32px;;
+    }
+
+    .order-summary-text{
+      font-size: 20px;
+    }
+
+    .title-container, .module-text-container{
+      width: 350px;
+    }
+
+    .modal-summary-text {
+      width: 320px;
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    .verify-text{
+      width: 320px;
+      line-height: 15px;
+      font-size: 15px;
+    }
+
+    .checkout-container{
+      gap: 15px;
+    }
+
+    .checkout-btn{
+      width: 200px;
+    }
+    
+  }
+  

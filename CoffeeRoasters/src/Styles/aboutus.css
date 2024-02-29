@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:opsz,wght@9..144,900&display=swap');
+
+.about-us-hero-container{
+    background-image: url("/assets/Aboutus/image-hero-whitecup.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1280px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 43px;
+}
+
+.about-us-hero-text-container{
+  padding-left: 86px;
+  padding-top: 75px;
+}
+
+.about-us-hero-title{
+  color: #FEFCF7;
+  font-family: Fraunces 9pt;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px; /* 100% */
+}
+
+.about-us-hero-description{
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.8;
+  width: 445px;
+}
+
+
+.our-commitment-container{
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+  gap: 150px;
+}
+
+.our-commitment-description-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 540px;
+}
+
+.commitment-img{
+  border-radius: 10px;
+}
+
+.our-commitment-title{
+  color: #333D4B;
+  font-family: fraunces;
+}
+
+.our-commitment-description{
+  color: #333D4B;
+  opacity: 0.7;
+  line-height: 24px;
+  font-family: barlow;
+}
+
+.uncompromising-quality-container{
+  background-image: url('/assets/Aboutus/bg-quality.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  gap: 100px;
+}
+
+.uncompromising-quality-text-container{
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.uncompromising-quality-title{
+  color: #FEFCF7;
+  font-family: fraunces;
+}
+
+.uncompromising-quality-description{
+  color: #FEFCF7;
+  font-family: barlow;
+  opacity: 0.5;
+  line-height: 24px;
+}
+
+.quality-img{
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
+.headquarters-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1250px;
+}
+
+.headquarters-title{
+ color: #83888F;
+ font-family: fraunces;
+ margin-bottom: 75px;
+ align-self: flex-start;
+}
+
+.headquarters-content-wrapper{
+  display: flex;
+  align-self: flex-start;
+  gap: 250px;
+  margin-bottom: 150px;
+}
+
+@media screen and (max-width: 1150px){
+  .about-us-hero-container{
+    width: 689px;
+    height: 500px;
+    background-image: url('/assets/Aboutus/image-hero-whitecup-tab.jpg');
+    background-position: center;
+    background-position-x: 85%;
+    border-radius: 20px;
+  }
+
+  .commitment-img{
+    width: 300px;
+  }
+
+  .quality-img{
+    position: absolute;
+    width: 450px;
+    height: 320px;
+    bottom: 35%;
+    right: 21%;
+  }
+
+  .our-commitment-description-container{
+    width: 400px;
+    
+  }
+
+  .uncompromising-quality-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+    flex-direction: column-reverse;
+    height: 400px;
+    width: 850px;
+    border-radius: 10px;;
+    
+  }
+
+  .uncompromising-quality-text-container{
+    text-align: center;
+  }
+
+
+  .headquarters-container{
+    width: 850px;
+    margin-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .headquarters-content-wrapper{
+    align-self: flex-start;
+    gap: 75px;
+   
+  }
+
+  .headquarters-title{
+    margin-right: 640px;
+  }
+
+}
+
+@media screen and (max-width: 850px){
+  .uncompromising-quality-container{
+    width: 660px;
+  }
+
+  .quality-img{
+    right: 14%;
+  }
+
+  .our-commitment-container{
+    gap: 45px;
+  }
+
+  .our-commitment-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    width: 600px;
+  }
+
+  .commitment-img{
+    width: 100%;
+  }
+
+
+
+
+
+  .headquarters-container{
+    width: 660px;
+  }
+}
+
+@media screen and (max-width: 650px){
+    .about-us-hero-container{
+      width: 350px;
+      height: 500px;
+      background-position-x: 75%;
+      
+    }
+  
+    .about-us-hero-text-container{
+      padding-left: 22px;
+      width: 279px;
+      height: 301px;
+      text-align: center;
+      margin-left: 0;
+    }
+  
+    .about-us-hero-title{
+      width: 279px;
+      color: #FEFCF7;
+      text-align: center;
+      font-family: Fraunces;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 40px; /* 100% */
+      
+    }
+  
+    .about-us-hero-description{
+      width: 279px;
+      color: #FEFCF7;
+      text-align: center;
+      font-family: Barlow;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px; /* 166.667% */
+    }
+
+    .our-commitment-container{
+      width: 350px;
+    }
+
+    .uncompromising-quality-container{
+      width: 350px;
+      align-content: center;
+    }
+
+    .quality-img{
+      width: 279px;
+      height: 156px;
+      left: 10%;
+      bottom: 45%;
+    }
+
+    .uncompromising-quality-text-container{
+      width: 279px;
+      align-content: center;
+    }
+
+    .uncompromising-quality-title{
+      width: 279px;
+      
+    }
+
+    .uncompromising-quality-description{
+      width: 279px;
+    }
+
+    .headquarters-container{
+      width: 350px;
+    }
+
+    .headquarters-content-wrapper{
+      flex-direction: column;
+      align-self: center;
+    }
+
+    .headquarters-title{
+      margin-right: 0;
+      align-self: center;
+    }
+}
+
+@media screen and (max-width : 500px){
+  .our-commitment-description-container{
+    width: 300px;
+    text-align: center;
+  }
+}
